@@ -130,14 +130,14 @@ export const EXPERIENCES: Experience[] = [
 
 export const PROJECTS: Project[] = [
   {
-    title: "FlavorConnect",
-    link: "https://github.com/HelenWu2004/FlavorConnect",
-    techStack: ["React", "TypeScript", "Next.js", "FastAPI", "Firebase", "GCP", "Spark"],
+    title: "AnimalSpotter",
+    link: "https://github.com/cs411-alawini/fa25-cs411-team024-sqland",
+    techStack: ["React", "Flask", "MySQL", "GCP", "Material-UI"],
     description: [
-      "Architected web application with React and TypeScript implementing microservices architecture.",
-      "Designed backend using Firebase and GCP, deploying microservices on Cloud Run following Agile principles.",
-      "Engineered TF-IDF ranking algorithm for a search engine with large-scale recipe dataset using Apache Spark, improving relevancy significantly.",
-      "Optimized loading performance through infinite scroll and lazy loading, drastically reducing initial load latency."
+      "Developed full-stack web application enabling users to record and share animal sightings with React, Flask, and MySQL on GCP.",
+      "Implemented CRUD operations, stored procedures, database triggers, and transactions for 6 core tables (User, Post, Observation, Species, Comment, PostLike).",
+      "Optimized query performance using two-layer caching strategy (materialized views + in-memory cache) reducing load times.",
+      "Built community features with real-time engagement tracking via database triggers and automated ranking system for weekly trending content."
     ]
   },
   {
@@ -163,14 +163,14 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    title: "AnimalSpotter",
-    link: "https://github.com/cs411-alawini/fa25-cs411-team024-sqland",
-    techStack: ["React", "Flask", "MySQL", "GCP", "Material-UI"],
+    title: "FlavorConnect",
+    link: "https://github.com/HelenWu2004/FlavorConnect",
+    techStack: ["React", "TypeScript", "Next.js", "FastAPI", "Firebase", "GCP", "Spark"],
     description: [
-      "Developed full-stack web application enabling users to record and share animal sightings with React, Flask, and MySQL on GCP.",
-      "Implemented CRUD operations, stored procedures, database triggers, and transactions for 6 core tables (User, Post, Observation, Species, Comment, PostLike).",
-      "Optimized query performance using two-layer caching strategy (materialized views + in-memory cache) reducing load times.",
-      "Built community features with real-time engagement tracking via database triggers and automated ranking system for weekly trending content."
+      "Architected web application with React and TypeScript implementing microservices architecture.",
+      "Designed backend using Firebase and GCP, deploying microservices on Cloud Run following Agile principles.",
+      "Engineered TF-IDF ranking algorithm for a search engine with large-scale recipe dataset using Apache Spark, improving relevancy significantly.",
+      "Optimized loading performance through infinite scroll and lazy loading, drastically reducing initial load latency."
     ]
   }
 ];
