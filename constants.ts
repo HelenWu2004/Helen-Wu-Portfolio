@@ -164,13 +164,13 @@ export const PROJECTS: Project[] = [
   },
   {
     title: "AnimalSpotter",
-    techStack: ["React", "Flask", "MySQL", "GCP"],
+    link: "https://github.com/cs411-alawini/fa25-cs411-team024-sqland",
+    techStack: ["React", "Flask", "MySQL", "GCP", "Material-UI"],
     description: [
       "Developed full-stack web application enabling users to record and share animal sightings with React, Flask, and MySQL on GCP.",
       "Implemented CRUD operations, stored procedures, database triggers, and transactions for 6 core tables (User, Post, Observation, Species, Comment, PostLike).",
       "Optimized query performance using two-layer caching strategy (materialized views + in-memory cache) reducing load times.",
-      "Built community features with real-time engagement tracking via database triggers and automated ranking system for weekly trending content.",
-      "Note: Repository will be available by Dec 9th, after final presentation."
+      "Built community features with real-time engagement tracking via database triggers and automated ranking system for weekly trending content."
     ]
   }
 ];
