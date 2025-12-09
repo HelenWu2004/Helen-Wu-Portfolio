@@ -21,7 +21,7 @@ const App: React.FC = () => {
                  */}
                  <img 
                    src="helen-cat.jpg" 
-                   alt="Helen Wu" 
+                   alt="Haiyue (Helen) Wu" 
                    className="w-full h-full object-cover grayscale-[5%] hover:grayscale-0 transition-all duration-500"
                    onError={(e) => {
                      e.currentTarget.style.display = 'none';
@@ -34,7 +34,7 @@ const App: React.FC = () => {
              </div>
              
              <div className="text-center lg:text-left">
-               <h1 className="font-serif text-5xl text-morandi-charcoal tracking-tight">Helen Wu</h1>
+               <h1 className="font-serif text-5xl text-morandi-charcoal tracking-tight">Haiyue (Helen) Wu</h1>
                <p className="text-lg text-morandi-olive font-light mt-2 italic">CS & Statistics at UIUC</p>
                <p className="text-sm text-morandi-taupe mt-1">GPA 4.00/4.00</p>
              </div>
@@ -96,7 +96,7 @@ const App: React.FC = () => {
              <h2 className="font-serif text-3xl text-morandi-charcoal mb-4">About Me</h2>
              <div className="text-morandi-charcoal/80 leading-relaxed font-light text-lg space-y-4">
                <p>
-                 I am Helen Wu, a senior majoring in Computer Science and Statistics at the University of Illinois Urbana-Champaign (GPA 4.0/4.0). I am proficient in Python, C++, and Go, with a strong passion for designing scalable backend infrastructure and leveraging applied machine learning to solve real-world problems.
+                 I am Haiyue (Helen) Wu, a senior majoring in Computer Science and Statistics at the University of Illinois Urbana-Champaign (GPA 4.0/4.0). I am proficient in Python, C++, and Go, with a strong passion for designing scalable backend infrastructure and leveraging applied machine learning to solve real-world problems.
                </p>
                <p>
                  My experience includes engineering backend features at Integral Pivots using Go, AWS, and PostgreSQL, where I architected robust CI/CD pipelines with Docker, GitlabCI, and Kubernetes. Previously at UmiUni, I developed a real-time chat system supporting high concurrency using WebSockets, MySQL and Redis, optimizing for scalability and low latency.
@@ -185,7 +185,7 @@ const App: React.FC = () => {
           </section>
 
           <footer className="text-center lg:text-left text-morandi-taupe text-xs py-8 border-t border-morandi-taupe/10">
-            © {new Date().getFullYear()} Helen Wu. Inspired by Monet.
+            © {new Date().getFullYear()} Haiyue (Helen) Wu. Inspired by Monet.
           </footer>
         </main>
       </div>
